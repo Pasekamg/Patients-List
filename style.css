@@ -1,0 +1,181 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #e8f0f8, #ffffff);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    color: #023e8a;
+    margin-top: 30px;
+}
+
+/* Form Container */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+/* Labels and Inputs */
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+input:focus, select:focus {
+    border-color: #0077b6;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 119, 182, 0.3);
+}
+
+/* Buttons */
+button {
+    padding: 12px 20px;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px 5px;
+}
+
+button:hover {
+    background-color: #023e8a;
+}
+
+/* Search Bar */
+#searchBox {
+    width: 90%;
+    margin: 0 auto 20px auto;
+    display: block;
+    border: 2px solid #0077b6;
+    border-radius: 8px;
+}
+
+/* Table */
+table {
+    width: 95%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: #ffffff;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.05);
+}
+
+th {
+    background-color: #0077b6;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f6f9fc;
+}
+
+/* QR Reader Box */
+#reader {
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+    background: #f1faff;
+    border: 2px dashed #0077b6;
+    border-radius: 8px;
+}
+
+/* Print Styling */
+@media print {
+    .no-print {
+        display: none;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    body {
+        background: none;
+        color: black;
+    }
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
+    }
+
+    input, select, button {
+        font-size: 15px;
+    }
+
+    th, td {
+        font-size: 14px;
+    }
+
+    h1, h2 {
+        font-size: 20px;
+    }
+}
+/* Hero Art Banner */
+.hero-banner {
+    background: linear-gradient(to right, #03045e, #0077b6, #00b4d8);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 5px solid #90e0ef;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hero-banner h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.hero-banner p {
+    margin: 10px 0 0;
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* Footer Styling */
+.footer {
+    background: #023e8a;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 40px;
+    border-top: 4px solid #0077b6;
+}
+
+.footer strong {
+    color: #ade8f4;
+}
